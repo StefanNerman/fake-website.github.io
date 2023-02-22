@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscription layout payment</title>
+    <link rel="stylesheet" href="payment_page_style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="backto-mainpage-btn">
+            <p>Go back</p>
+            <div class="goback-btn-img">
+                <img class="goback-img goback-1" src="/res/green_arrow.png">
+                <img class="goback-img goback-2" src="/res/green_arrow.png">
+            </div>
+        </button>
+        <h id="package-name"></h>
+        <div class="wrapper-box">
+            <div class="price-box">
+                <div id="regular-price" class="text-field-border">
+                    <p id="ptag">s</p><a id="dicount-sign" style="color:#00b446;">-30%</a>
+                </div>
+                <div id="total-price" class="text-field-border">
+                    $8.99
+                </div>
+            </div>
+            <div class="payment-method-box">
+                <div id="select-payment" class="text-field-border">
+                    <p id="payment-ptag">Select payment method</p><a id="payment-expandselector"></a>
+                </div>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li id="paypal">PayPal</li>
+                        <li id="visa">Visa</li>
+                        <li id="mastercard">MasterCard</li>
+                        <li id="money1">Money</li>
+                        <li id="money2">Money</li>
+                        <li id="money3">Money</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="next-btn-box">
+            <button id="checkout-btn" class="text-field-border">
+                <p id="error-msg">please fill all the required information</p>
+                Next
+            </button>
+        </div>
+    </div>
+
+
+    <script src="payment_script.js"></script>
+</body>
+</html>

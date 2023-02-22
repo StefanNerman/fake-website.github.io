@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscription layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="servicecards_styles/cards_common.css">
+    <link rel="stylesheet" href="settings_style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-bar">
+            <div class="menubox menubox-left">
+                <img src="res/fake_logo.png">
+                <div class="logo-btn-container">
+                    <a href="index.html"></a>
+                </div>
+            </div>
+            <div class="menubox menubox-center">
+                <div class="menu-btn" id="about-menu-btn">
+                    <a href="#about-mark"><p>About us</p></a>
+                </div>
+                <div class="menu-btn" id="service-menu-btn">
+                    <a href="#service-mark"><p>Our services</p></a>
+                </div>
+                <div class="menu-btn" id="contact-menu-btn">
+                    <a href="#contact-mark"><p>Contact us</p></a>
+                </div>
+                <div class="menu-btn" id="settings-menu-btn">
+                    <a class="settings-btn"><p>Settings</p></a>
+                </div>
+            </div>
+            <div class="menubox menubox-right">
+                <div class="menuselector-btn-container">
+                    <a id="menuselector-btn"></a>
+                    <div class="dropdownmenu-nav" id="dropdownmenu-nav">
+                        <div1>
+                            <a href="#about-mark">About us</a>
+                            <a href="#service-mark">Our services</a>
+                            <a href="#contact-mark">Contact us</a>
+                            <a class="settings-btn">Settings</a>
+                        </div1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="settings-page">
+        <div class="settings-container">
+            <div class="settings-top">
+                <h2>Settings</h2>
+                <button class="exit-settings-btn">
+                    <p>Go back</p>
+                    <div class="goback-btn-img">
+                        <img class="goback-img goback-1" src="/res/green_arrow.png">
+                        <img class="goback-img goback-2" src="/res/green_arrow.png">
+                    </div>
+                </button>
+            </div>
+            <h>Themes</h>   
+            <div id="magic-stick" style="height:20px"></div>
+            <div1><a id="deafult-color-selected">selected -></a><p id="deafult-color">deafult</p></div1>
+            <div1><a id="dark-color-selected">selected -></a><p id="dark-color">dark</p></div1>
+            <div1><a id="grey-color-selected">selected -></a><p id="grey-color">grey</p></div1>
+        </div>
+    </div>
+    <main>
+        <div class="pagehero">
+            <div class="center-content">
+                <div class="text-container">
+                    <h>We care about stuff</h>
+                    <p>We care about stuff We care about stuff We care about stuff We care about stuff We care about stuff.</p>
+                    <p>We care about stuff We care about stuff We care about stuff We care about stuff We care about stuff.</p>
+                    <p>We care about stuff We care about stuff We care about stuff We care about stuff We care about stuff.</p>
+                </div>
+            </div>
+        </div>
+        <div class="infotext-wrapper">
+            <div class="infotext-box">
+                <div id="about-mark" class="infotext-title fading-underline big-green-stain-text">
+                    <h>What does our company do?</h>
+                </div>
+                <div class="textbox">
+                    <p> Our company does cool stuff.
+                        Our company  does alot of cool stuff.
+                        Our company does    alot of cool stuff.
+                        Our company does alot of cool stuff.
+                        Our company      does alot of cool stuff.
+                        Our com  pany does alot of cool stuff.
+                        Our company does alot of cool stuff.
+                        Our company     does alot of cool stuff.
+                        Our company does alot of cool stuff.
+                    </p>
+                    <p> Our company does cool stuff.
+                        Our co mpany d  oes alot of cool stuff.
+                        Our com any does alot of cool stuff.
+                        Our  co  mpany do s alot of cool stuff.
+                        Our company does alot of cool stuff.
+                        Our compa ny does al  ot of cool  stuff.
+                        Our  company does al ot of cool stuff.
+                        Our co mpany  does alot of co  stuff.
+                        Our company does alot of cool stuff.
+                    </p> 
+                    <iframe id="infotext-embeded-video"
+                    src="https://www.youtube.com/embed/c74kMCOmP80"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture;
+                    web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="card-center-content">
+            <div class="servicecards-wrapper">
+                <div class="servicecards-container">
+                    <div id="service-mark" class="servicecards-title fading-underline big-green-stain-text">
+                        <h>Best Packages!</h>
+                    </div>
+                    <div class="servicecards-box">
+                        <span id="spancard-minimal">
+                            <div class="card" id="card-minimal">
+                                <a id="link-card-minimal"></a>
+                                <h>Minimal package</h>
+                                <div class="center">
+                                    <h1>Includes:</h1>
+                                    <ul>
+                                        <li>access to most services</li>
+                                        <li>good protection</li>
+                                        <li>partial guarantee</li>
+                                    </ul>
+                                    <div class="card-iconspace">
+                                        <img src="res/briefcase.png">
+                                    </div>
+                                </div>
+                                <h><span style="visibility:collapse;"></span>$5.99 / 1 months</h>
+                            </div>
+                        </span>
+                        <span id="spancard-deluxe">
+                            <div class="card important" id="card-deluxe">
+                                <a id="link-card-deluxe"></a>
+                                <h>Deluxe package</h>
+                                <div class="center">
+                                    <h1>Includes:</h1>
+                                    <ul>
+                                        <li>full access to services</li>
+                                        <li>strong protection</li>
+                                        <li>imprtant ability</li>
+                                        <li>full guarantee</li>
+                                    </ul>
+                                    <div class="card-iconspace">
+                                        <img src="res/briefcase.png">
+                                    </div>
+                                </div>
+                                <h><span>$11.99</span>$8.99 / 1 months</h>                  
+                                <img src="res/best_value_stamp.png" class="card-bestvaluesign">
+                                <div class="salesign-span">
+                                    <div class="salesign-box">
+                                        <p>-25%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <span id="spancard-master">
+                            <div class="card" id="card-master">
+                                <a id="link-card-master"></a>
+                                <h>Master package</h>
+                                <div class="center">
+                                    <h1>Includes:</h1>
+                                    <ul>
+                                        <li>full access to services</li>
+                                        <li>full protection</li>
+                                        <li>all imprtant abilities</li>
+                                        <li>maximum guarantee</li>
+                                        <li>moneyback refundcash</li>
+                                    </ul>
+                                    <div class="card-iconspace">
+                                        <img src="res/briefcase.png">
+                                    </div>
+                                </div>
+                                <h><span>$19.99</span>$15.99 / 1 months</h>
+                                <div class="salesign-span">
+                                    <div class="salesign-box">
+                                        <p>-20%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="scroll-btn-round scroll-btn-left">
+                    <img src="res/arrow.png">
+                </div>
+                <div class="scroll-btn-round scroll-btn-right">
+                    <img src="res/arrow.png">
+                </div>
+            </div>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-container">
+                <div id="contact-mark" class="contact-title fading-underline big-green-stain-text">
+                    Contact us
+                </div>
+                <div class="contact-content">
+                    <div class="contact-infobox">
+                        <h>Contact info</h>
+                        <p class="bold">email</p>
+                        <p>ourmail.send@ourco.com</p>
+                        <p class="bold">adress</p>
+                        <p>00120 ourstreetadresses 8 Ourcity</p>
+                        <p class="bold">telephone number</p>
+                        <p>0340959009</p>
+                    </div>
+                    <iframe id="embeded-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4199.491485547713!2d12.453150023471203!3d41.90384754721421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6061b7149b59%3A0x724bf077cd875283!2sSt.%20Peter&#39;s%20Basilica!5e0!3m2!1sen!2sfi!4v1673612170279!5m2!1sen!2sfi"
+                        width="600" height="450" style="border:0;"
+                        allowfullscreen="" loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <link rel="stylesheet" href="footer_style.css">
+    <footer>
+        <div class="footer-container">
+            <div class="logo-small">
+                <a href="index.html"></a>
+            </div>
+            <div class="footer-menubtn">
+                <a href="#about-mark">About us</a>
+                <a href="#service-mark">Our services</a>
+                <a href="#contact-mark">Contact us</a>
+                <a href="">Settings</a>
+            </div>
+            <div style="display:flex;align-items:center">
+                Ouradress 00670 4 Ourcity
+            </div>
+            <div style="display:flex;align-items:center">
+                our.company@ourcompany.com
+            </div>
+            <div style="display:flex;align-items:center">
+                phone: 0340959009
+            </div>
+            <div class="footer-links">
+                <a id="facebook" href="https://www.facebook.com/"></a>
+                <a id="linkedin" href="https://www.linkedin.com/"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="libraries/Detect.js/detect.js"></script>
+    <script src="detect_device.js"></script>
+    <script src="settings_script.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

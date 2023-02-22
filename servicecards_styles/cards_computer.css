@@ -1,0 +1,38 @@
+
+.scroll-btn-round {
+    -webkit-user-select: none;
+    cursor: pointer;
+    position:absolute;
+    height:0;
+    width:0;
+    border:30px solid rgba(255,255,255,0.8);
+    box-shadow: var(--box-shadow-basic);
+    border-radius: 50%;
+    z-index: 11;
+}
+.scroll-btn-round img {
+    height:35px;
+    width:35px;
+    translate:-23px -18px;
+    rotate:-45deg;
+}
+.scroll-btn-left{
+    top:255px;
+    rotate:180deg;
+    left:20px;
+    transition:left 300ms;
+}
+.scroll-btn-right{
+    top:255px;
+    right:20px;
+    transition:right 300ms;
+}
+.servicecards-wrapper:hover [class*='scroll-btn-left'] {
+    left:100px;
+    visibility: visible;
+}
+.servicecards-wrapper:hover [class*='scroll-btn-right'] {
+    right:100px;
+    visibility: visible;
+}
+
