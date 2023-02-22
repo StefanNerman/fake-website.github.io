@@ -1,16 +1,12 @@
-#The fake website
+What is this application?
+
+This is a multi-page static website that I made with javascript, html and css to practice making reactive websites.
 
 
-#What is this website?
-This is a simple multipage website that I made with javascript, css and html. The website looks like a pretty generic website that sells some kind of a subscription online.
+What can this application do?
+
+This is just a website made for a fake company that sells some kind of subscription on their website. The website is fully reactive, has themes that you can change in settings and also there are other websites like google maps embeded in the website.
 
 
-#Why I made this website?
-This is one of my earlier projects and I made it to practice building websites using javascript, css and html and then how to make the websites reactive by using javascript and css.
+Tools I used: Javascript, HTML, CSS
 
-
-#What I've learned from this project?
-I mostly learned about css and how to make decent looking websites and then how to use javascript to make the UX better.
-
-
-#How to run this website?
